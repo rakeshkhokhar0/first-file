@@ -1,0 +1,274 @@
+/*stylesheet*/
+/*header stylesheet*/
+div.header{
+    background-image: url(body_bg.png);
+    color: white;
+    padding-top: 2vw;
+}
+div.brandname{
+    font-size: 2.5vw;
+    padding-left: 2vw;
+    font-weight: 900;
+}
+div.head nav{
+    display: flex;
+}
+ul.ul{
+    list-style-type: none;
+}
+.navbar{
+    display: flex;
+    font-size: 1.5vw;
+    flex: 70%;
+    justify-content: space-between;
+}
+.ul li{
+    display: inline;
+}
+div.contact ul li span{
+    padding: 1vw;
+}
+div.contact ul li{
+    padding: 2vw;
+}
+div.contact ul li a{
+    text-decoration: none;
+    color: white;
+}
+div.customer{
+    padding-right: 3vw;
+}
+div.customer ul li{
+    padding: 0 1vw;
+}
+@media all and (max-width: 700px){
+    nav .navbar{
+        display: none;
+    }
+    div.brandname{
+        font-size: 7vw;
+    }
+    div.s_navbar ul{
+        display: none;
+    }
+}
+/*about the product*/
+@media all and (min-width: 400px){
+    div.content{
+        display: flex;
+        justify-content: space-between;
+        margin: 3vw 0;
+    }
+    div.navbar ul{
+        list-style-type: none;
+    }
+    div.s_navbar ul li{
+        list-style-type: none;
+        position: relative;
+        right: 2vw;
+    }
+    div.s_navbar ul li a{
+        padding: 1.5vw 0;
+        color: #fff;
+        text-decoration: none;
+        font-size: 1vw;
+        font-weight: 400;
+        text-transform: uppercase;
+        writing-mode: vertical-rl;
+        transition: .5s ease;
+    }
+    div.s_navbar ul li a:hover{
+        color: brown;
+    }
+    div.brand_dis{
+        display: flex;
+        width: 85%;
+        margin-right: 5%;
+    }
+    div.brand_dis .hony .hony_dis{
+        font-size: 1.7vw;
+        padding: 2vw 0;
+    }
+    div.brand_dis .hony .topic{
+        font-size: 5vw;
+    }
+    .button button{
+        font-size: 2.2vw;
+        padding: 1vw 3vw;
+        border-radius: 2.5vw;
+        border: 0;
+        color: white;
+        background-color: rgb(189, 79, 5);
+        cursor: pointer;
+        transition: .5s ease;
+    }
+    .button button:hover{
+        background-color: black;
+    }
+    .image img{
+        width: 40vw;
+    }
+}
+div.swipe{
+    text-align: center;
+}
+div.swipe button{
+    padding: 1vw;
+    font-weight: 1500;
+    cursor: pointer;
+    border-radius: 50%;
+    padding: auto;
+    border: 2vw;
+}
+div.swipe button:hover{
+    color: brown;
+}
+div.hony_info{
+    display: flex;
+    margin: 4vw 2vw;
+}
+@media all and (min-width: 700px){
+    div.info div h1{
+        font-size: 5vw;
+    }
+    .discription{
+        font-size: 2vw;
+        margin: 2vw 0;
+    }
+    div.hony_image img{
+        width: 40vw;
+        height: auto;
+    }
+}
+.footer{
+    background-image: url(body_bg.png);
+    color: #fff;
+    padding: 0 0 4vw 0;
+}
+div.footer div.quality{
+    text-align: center;
+    margin: 4vw;
+    padding: 3vw;
+}
+div.images{
+        display: flex;
+        flex-wrap: wrap;
+}
+div.img{
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 1vw;
+        vertical-align: center;
+        margin: 2vw;
+}
+div.img div.quality_img{
+        padding: 2vw;
+}
+div.img div.quality_img img{
+        width: 13vw;
+        display: block;
+        margin: auto;
+}
+@media all and (max-width: 700){
+    div.img{
+        background-color: #fff;
+        margin: 10vw;
+    }
+    div.img div.quality_img img{
+        width: 30vw;
+    }
+}
+.see_more{
+    margin: 2vw;
+    text-align: center;
+}
+div.head{
+    text-align: center;
+}
+div.form div{
+    margin: 5vw;
+    text-align: center;
+}
+div.form form div{
+    display: flex;
+    flex-wrap: wrap;
+}
+div.form form input,.input{
+    background: 0 0;
+    margin: 2vw;
+    width: 32vw;
+    color: white;
+    height: 6vw;
+    box-sizing: border-box;
+    padding: 2vw 1vw;
+    border: .2vw solid #f3f2f2;
+}
+.input{
+    resize: vertical;
+}
+div.bottom_img{
+    margin: 10vw;
+    display: flex;
+    justify-content: center;
+}
+div.bottom_img div{
+    margin: auto
+}
+div.bottom_img div img{
+    width: 50vw;
+}
+div.company_info div.name{
+    display: flex;
+}
+div.lorem{
+    font-size: 2vw;
+}
+div.company_info div.name{
+    margin: 1vw;
+    font-size: 2vw;
+}
+div.company_info div.name div.same{
+    flex: 25%;
+    box-sizing: border-box;
+    padding: 2vw;
+}
+div.link div{
+    padding: 0.7vw 0 0 0;
+}
+div.link div a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+div.address div div a {
+    text-decoration: none;
+    color: white;
+}
+div.lorem{
+    font-size: 1vw;
+}
+div.social{
+    display: flex;
+}
+div.social div {
+    padding: 1vw 1vw 0 0;
+}
+div.bottom_form form input{
+    background: 0 0;
+    margin: 0 0 1vw 0;
+    height: 3vw;
+    border: 1px solid black;
+    padding: 0 1vw;
+}
+input[type="button"]{
+    transition: 0.5s ease;
+    border-radius: 1vw;
+    color: white;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: rgb(20, 20, 20);
+}
+div.copyright div{
+    text-align: center;
+}
