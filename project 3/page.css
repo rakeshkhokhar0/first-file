@@ -1,0 +1,419 @@
+/*stylesheet*/
+/*nevigetion bar*/
+
+div.nav{
+    position: sticky;
+    top: 0;
+}
+@media all and (max-width:792px){
+    div.nav nav{
+        display: none;
+    }
+    div.small_nav{
+        display: flex;
+        justify-content: space-between;
+        background-color: black;
+    }
+    div.small_nav div{
+        padding: 1vw 2vw;
+    }
+    div.small_nav div a{
+        color: white;
+        text-decoration: none;
+        font-size: 4vw;
+    }
+    div.small_nav div{
+        color: white;
+        background-color: black;
+        border: 0;
+    }
+    div.small_nav div:hover a{
+        color: black;
+    }
+    div.small_nav div:hover{
+        background-color: rgba(241, 241, 241, 0.918);
+        color: black;
+    }
+    /*images*/
+    div.losanglish{
+        display: none;
+    }
+    /*band*/
+    div.about_band{
+        padding: 3vw;
+    }
+    div.band_discription{
+        display: block;
+        margin: auto;
+        width: 98%;
+    }
+    div.band_box1{
+        text-align: center;
+    }
+    div.band_box1 h2{
+        opacity: 0.6;
+    }
+    div.band_box2{
+        font-size: 3vw;
+    }
+    div.band_box3{
+        display: flex;
+        flex-direction: column;
+    }
+    div.band_box3 div{
+        display: block;
+        margin: auto;
+        width: 60%;
+        text-align: center;
+    }
+    /*tour*/
+    div.tour{
+        background-color: black;
+        padding: 3vw 0;
+    }
+    div.tour_box{
+        display: block;
+        margin: auto;
+        width: 95%;
+    }
+    div.tour_dates{
+        text-align: center;
+        color: white;
+        margin: 1vw 0;
+    }
+    div.tour_dates p{
+        opacity: 0.6;
+    }
+    div.album{
+        color: black;
+        background-color: #fff;
+        width: 100%;
+        margin: 3vw 0;
+    }
+    div.album div{
+        vertical-align: center;
+    }
+    div.album div span.Sold{
+        background-color: red;
+        font-size: 2.5vw;
+        padding: 1vw;
+        margin: 0 1vw;
+        color: white;
+    }
+    .rem{
+        background-color: black;
+        padding: 1vw;
+        border-radius: 50%;
+        color: white;
+        float: right;
+        margin: 0 1vw 0 0;
+    }
+    div.city{
+        width: 100%;
+    }
+    div.city_name{
+        background-color: #fff;
+        color: black;
+        margin: 2vw 0;
+    }
+    div.city_name img{
+        width: 100%;
+    }
+    div.discription{
+        padding: 2vw;
+    }
+    div.discription h2{
+        font-size: 5vw;
+    }
+    p.date{
+        opacity: 0.6;
+        font-size: 3vw;
+    }
+    div.discription div{
+        font-size: 3.5vw;
+    }
+    div.discription button{
+        background-color: black;
+        color: #fff;
+        border: 0;
+        margin: 1vw 0;
+        font-size: 3vw;
+        padding: 2vw;
+        transition: .5s ease;
+    }
+    div.discription button:hover{
+        background-color: #6e6c6c6e;
+        color: black;
+    }
+    div.contact{
+        background-color: #fff;
+        padding: 5vw;
+    }
+    div.contact_box{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    div.contact_head{
+        text-align: center;
+    }
+    div.contact_head div{
+        opacity: 0.6;
+        font-size: 3vw;
+    }
+    div.contact_details{
+        display: block;
+        width: 100%;
+        padding: 5vw 0;
+    }
+    div.address{
+        width: 100%;
+        margin: 2vw 0;
+    }
+    div.userdetails{
+        width: 100%;
+    }
+    div.userdetails div{
+        width: 100%;
+        margin: 1vw 0;
+    }
+    div.userdetails div input{
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1vw 2vw;
+        margin: 0.5vw;
+    }
+    div.userdetails button{
+        background-color: black;
+        color: #fff;
+        border: 0;
+        padding: 2vw;
+        box-sizing: border-box;
+        float: right;
+    }
+}
+@media all and (min-width: 792px){
+    /*nevigetion bar*/
+    div.nav div.small_nav{
+        display: none;
+    }
+    div.all{
+        box-sizing: border-box;
+    }
+    nav{
+        background-color: black;
+        display: flex;
+        align-items: center;
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 1.5vw;
+        padding: 1vw;
+    }
+    a.navbar_link{
+        color: white;
+    }
+    a.navbar_link:hover,nav div.nav_button button:hover{
+        background-color: rgba(114, 114, 111, 0.466);
+    }
+    nav div.nav_button button{
+        background-color: black;
+        color: white;
+        font-size: 1.5vw;
+        padding: 1vw;
+        cursor: pointer;
+        border: 0;
+    }
+    .dropdown_list_nav{
+        position: absolute;
+        background-color: white;    
+        list-style-type: none;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+    }
+    .dropdown_nav{
+        display: none;
+    }
+    div.nav_button button:hover div.dropdown_nav{
+        display: block;
+    }
+    .dropdown_list_nav li{
+        padding: 0 0 1vw 0;
+        text-align: left;
+        box-sizing: border-box;
+    }
+    .dropdown_list_nav li a{
+        text-decoration: none;
+        color: black;  
+
+    }
+    .dropdown_list_nav li:hover{
+        background-color: rgba(109, 111, 112, 0.521);
+    }
+    .bgred_hover{
+        position: absolute;
+        right: 1vw;
+        padding: 1vw;
+        color: white;
+    }
+    .bgred_hover:hover{
+        background-color: red;
+    }
+    /*images*/
+    div.losanglish{
+        position: absolute;
+        bottom: 2vw;
+        color: white;
+        left: 50%;
+        transform: translate(-50%,0);
+        text-align: center;
+    }
+        /*band*/
+    div.about_band{
+        padding: 5vw 0;
+    }
+        div.band_discription{
+            display: block;
+            margin: auto;
+            width: 50%;
+        }
+        div.band_box1{
+            text-align: center;
+        }
+        div.band_box2{
+            font-size: 1vw;
+        }
+        div.band_box3{
+            display: flex;
+            justify-content: space-around;
+        }
+        div.band_box3 div{
+            width: 30%;
+            text-align: center;
+        }
+        div.band_box3 div img{
+            width: 100%;
+        }
+        /*tour*/
+    
+        div.tour{
+            padding: 3vw 0;
+            background-color: black;
+            color: white;
+        }
+        div.tour_box{
+            display: block;
+            margin: auto;
+            width: 60%;
+        }
+        div.tour_dates{
+            text-align: center;
+        }
+        div.tour_dates h2{
+            letter-spacing: 1vw;
+        }
+        div.tour_dates p{
+            opacity: 0.7;
+        }
+        div.album{
+            background-color: white;
+            color: black;
+        }
+        div.album div{
+            padding: .2vw 1vw;
+            vertical-align: center;
+            color: #3b3838;
+        }
+        div.album div span.Sold{
+            background-color: red;
+            font-size: 1vw;
+        }
+        .rem{
+            background-color: black;
+            color: white;
+            padding: 0.2vw;
+            border-radius: 50%;
+            float: right;
+        }
+        div.city{
+            margin-top: 1vw;
+            display: flex;
+            justify-content: space-around;
+        }
+        div.city_name{
+            width: 30%;
+            background-color: white;
+        }
+        div.city_name img{
+            width: 100%;
+        }
+        div.city_name div.discription{
+            color: black;
+            padding: 0 0 1vw 1vw;
+        }
+        p.date{
+            opacity: 0.6;
+        }
+        .button{
+            background-color: black;
+            color: #fff;
+            font-size: 1vw;
+            padding: 5%;
+            border: 0;
+            margin-top: 5%;
+            transition: .5s ease;
+        }
+        button:hover{
+            background-color: rgb(175, 171, 171);
+            color: black;
+        }
+        /*contact details*/
+    
+        div.contact{
+            background-color: #fff;
+            margin: 3vw 0;
+        }
+        div.contact_box{
+            display: block;
+            margin: auto;
+            width: 60%;
+        }
+        div.contact_head{
+            text-align: center;
+        }
+        div.contact_head h2{
+            letter-spacing: 0.1vw;
+        }
+        div.contact_head div{
+            opacity: 0.7;
+        }
+        div.contact_details{
+            display: flex;
+            margin: 3vw;
+            justify-content: space-between;
+        }
+        div.address div{
+            margin: 1vw;
+        }
+        div.address div span{
+            padding: 1vw;
+        }
+        div.userdetails div.user{
+            margin: 1vw 0;
+            box-sizing: border-box;
+        }
+        div.userdetails div.user input{
+            width: 49%;
+            padding: 2%;
+            box-sizing: border-box;
+        }
+        div.userdetails div.messeage input{
+            width: 100%;
+            padding: 2%;
+            box-sizing: border-box;
+        }
+        div.userdetails button{
+            float: right;
+        }
+}
